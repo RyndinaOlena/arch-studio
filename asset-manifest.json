@@ -1,13 +1,40 @@
 {
   "files": {
-    "main.css": "/testProject/static/css/main.7acaea2f.css",
-    "main.js": "/testProject/static/js/main.07d3183d.js",
+    "main.css": "/testProject/static/css/main.e40e581a.css",
+    "main.js": "/testProject/static/js/main.5b0feb08.js",
+    "static/media/meeting-room-828547_1920.jpg": "/testProject/static/media/meeting-room-828547_1920.ad3c50ebcc86b92c4517.jpg",
+    "static/media/interior-design-828545_1920.jpg": "/testProject/static/media/interior-design-828545_1920.cf404bcbb79ac8d38d50.jpg",
+    "static/media/computer-962971_1920.jpg": "/testProject/static/media/computer-962971_1920.990d28febf3e81a39540.jpg",
+    "static/media/image6.svg": "/testProject/static/media/image6.499c2fce575ffeb84d185628e4f0ebf6.svg",
+    "static/media/workingProcessImg4.svg.svg": "/testProject/static/media/workingProcessImg4.svg.22e836fa9f36ca1f6090568a80673d89.svg",
+    "static/media/image5.svg": "/testProject/static/media/image5.03a6a321cb1e975da4705e90a345213c.svg",
+    "static/media/image2.svg": "/testProject/static/media/image2.1ae5d5c8c9bafe5ff8d75a8ad1b07e2d.svg",
+    "static/media/workingProcessImg3.svg.svg": "/testProject/static/media/workingProcessImg3.svg.4303db4694bc1829e19028bf191a7531.svg",
+    "static/media/image4.svg": "/testProject/static/media/image4.7ba8ed3e930bccb3630789a310d3d6cc.svg",
+    "static/media/image1.svg": "/testProject/static/media/image1.e47d5b165aebc6629b461c37b8274a17.svg",
+    "static/media/logoNavbar.svg": "/testProject/static/media/logoNavbar.03b5d18d1223c58b777dd47093301a38.svg",
+    "static/media/image3.svg": "/testProject/static/media/image3.f2cd2d464ea988fb5e97bbd9e8a5a4b3.svg",
+    "static/media/instagramIcon.svg": "/testProject/static/media/instagramIcon.3fb42e39000060d5d6acc1227624d9bc.svg",
+    "static/media/Group1.svg": "/testProject/static/media/Group1.d090c92d3ad935797b87cd3ff50a15ba.svg",
+    "static/media/workingProcessImg2.svg.svg": "/testProject/static/media/workingProcessImg2.svg.768406658dec2176e92c1068123d0a99.svg",
+    "static/media/iconPhone.svg": "/testProject/static/media/iconPhone.3101d1611ba55aabffe23a1682bad317.svg",
+    "static/media/Icon_@.svg": "/testProject/static/media/Icon_@.6202431629b8af7de3c65a12fff605a6.svg",
+    "static/media/twitterIcon.svg": "/testProject/static/media/twitterIcon.21fe24b0ade906f8e583b8ad05127821.svg",
+    "static/media/shopping-bag.svg": "/testProject/static/media/shopping-bag.935e6e27a50b549318ae26cd62a2a68d.svg",
     "index.html": "/testProject/index.html",
-    "main.7acaea2f.css.map": "/testProject/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/testProject/static/js/main.07d3183d.js.map"
+    "static/media/linkedinIcon.svg": "/testProject/static/media/linkedinIcon.e16048a5c7a7b260ea12373fad467d74.svg",
+    "static/media/timeIcon.svg": "/testProject/static/media/timeIcon.c755ec62cb6899dcf71de4311e0d0b8e.svg",
+    "static/media/play-button.svg": "/testProject/static/media/play-button.1e7fb04ef09da354c5b372d356f16d83.svg",
+    "static/media/loopa.svg": "/testProject/static/media/loopa.903d54b6c12c00c7d201d6a0a69fcd53.svg",
+    "static/media/iconFaceBook.svg": "/testProject/static/media/iconFaceBook.480b480d08fb0a12b864c9735aab2437.svg",
+    "static/media/arrowNext.svg": "/testProject/static/media/arrowNext.bac0dff0fcea3fe13f587c3070cdbf64.svg",
+    "static/media/arrowBack.svg": "/testProject/static/media/arrowBack.c39bf5053809a9917ffca9f8156ec57b.svg",
+    "static/media/nav_icon.svg": "/testProject/static/media/nav_icon.adb8473625091615ec7dcb44b58030ec.svg",
+    "main.e40e581a.css.map": "/testProject/static/css/main.e40e581a.css.map",
+    "main.5b0feb08.js.map": "/testProject/static/js/main.5b0feb08.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.e40e581a.css",
+    "static/js/main.5b0feb08.js"
   ]
 }
