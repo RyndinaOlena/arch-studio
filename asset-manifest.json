@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/testProject/static/css/main.e40e581a.css",
-    "main.js": "/testProject/static/js/main.5b0feb08.js",
+    "main.js": "/testProject/static/js/main.6a7c5c28.js",
     "static/media/meeting-room-828547_1920.jpg": "/testProject/static/media/meeting-room-828547_1920.ad3c50ebcc86b92c4517.jpg",
     "static/media/interior-design-828545_1920.jpg": "/testProject/static/media/interior-design-828545_1920.cf404bcbb79ac8d38d50.jpg",
     "static/media/computer-962971_1920.jpg": "/testProject/static/media/computer-962971_1920.990d28febf3e81a39540.jpg",
+    "static/media/living-room-modern-tv-4813591_1280.jpg": "/testProject/static/media/living-room-modern-tv-4813591_1280.d473fcc73a4c6aa0acca.jpg",
+    "static/media/fantasy-2543658_1280.jpg": "/testProject/static/media/fantasy-2543658_1280.cf5e821ccd3d36390bd9.jpg",
+    "static/media/fractal-1662898_1280.jpg": "/testProject/static/media/fractal-1662898_1280.f346375835df9164e00d.jpg",
+    "static/media/log-1807830_1280.jpg": "/testProject/static/media/log-1807830_1280.71c4696d68d02084ce93.jpg",
     "static/media/image6.svg": "/testProject/static/media/image6.499c2fce575ffeb84d185628e4f0ebf6.svg",
+    "static/media/digital-art-3193935_1280.jpg": "/testProject/static/media/digital-art-3193935_1280.80b30ed1f0f21122cf51.jpg",
     "static/media/workingProcessImg4.svg.svg": "/testProject/static/media/workingProcessImg4.svg.22e836fa9f36ca1f6090568a80673d89.svg",
     "static/media/image5.svg": "/testProject/static/media/image5.03a6a321cb1e975da4705e90a345213c.svg",
     "static/media/image2.svg": "/testProject/static/media/image2.1ae5d5c8c9bafe5ff8d75a8ad1b07e2d.svg",
@@ -31,10 +36,10 @@
     "static/media/arrowBack.svg": "/testProject/static/media/arrowBack.c39bf5053809a9917ffca9f8156ec57b.svg",
     "static/media/nav_icon.svg": "/testProject/static/media/nav_icon.adb8473625091615ec7dcb44b58030ec.svg",
     "main.e40e581a.css.map": "/testProject/static/css/main.e40e581a.css.map",
-    "main.5b0feb08.js.map": "/testProject/static/js/main.5b0feb08.js.map"
+    "main.6a7c5c28.js.map": "/testProject/static/js/main.6a7c5c28.js.map"
   },
   "entrypoints": [
     "static/css/main.e40e581a.css",
-    "static/js/main.5b0feb08.js"
+    "static/js/main.6a7c5c28.js"
   ]
 }
