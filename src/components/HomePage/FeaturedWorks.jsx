@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import css from '../HomePage/HomePage.module.css'
-import images from '../HomePage/categorisImg'
+import images from './categorisImg'
 const FeaturedWorks = () => {
     const [filter, setFilter] = useState('all');
 
