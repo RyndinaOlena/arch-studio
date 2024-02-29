@@ -40,7 +40,7 @@ const Navbar = () => {
             </nav>
 
             <div className={css.navMenuIconContainer}>
-                <img className={css.navMenuIcon} src={shopBag} alt='shopBag' />
+                <Link to='ShopList'><img className={css.navMenuIcon} src={shopBag} alt='shopBag' /></Link>
                 <img className={css.navMenuIcon} src={loopa} alt='loopa' />
                 <img className={css.navMenuIconNav} src={nav_icon} alt='nav_icon' />
             </div>

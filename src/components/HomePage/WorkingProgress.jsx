@@ -5,6 +5,15 @@ import workProgres2 from '../images/workingProcessIm/workingProcessImg2.svg.svg'
 import workProgres3 from '../images/workingProcessIm/workingProcessImg3.svg.svg'
 import workProgres4 from '../images/workingProcessIm/workingProcessImg4.svg.svg'
 const WorkingProgress = () => {
+    // const workList = [
+    //     {
+    //         img: '',
+    //         title: '',
+    //         text: ''
+    //     },
+    // ]
+
+
     return (
         <>
             <div className={css.workProgres}>

@@ -3,4 +3,52 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
+    gap: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.emailLine {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.sendText {
+    margin: 0;
+}
+
+.sendIcon {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+}
+
+.socialIcon {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    width: 20px;
+}
+
+.socialIcon:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.lineFooter {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 1px;
+}
+
+.blockFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
 }

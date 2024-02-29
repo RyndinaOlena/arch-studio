@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import css from '../HomePage/HomePage.module.css'
 import images from './categorisImg'
 const FeaturedWorks = () => {
     const [filter, setFilter] = useState('all');
+    const [filterImg, setfilterImg] = useState([])
 
     const handleFilterChange = (category) => {
         setFilter(category)
     };
-    const filterImages = filter === 'all' ? images : images.filter(img => img.category === filter);
+    useEffect(() => {
+        const filterImages = filter === 'all' ? images : images.filter(img => img.category === filter);
+        setfilterImg(filterImages)
+    }, [filter])
+
     return (
         <>
             <div className={css.featuredWorksContainer}>
@@ -17,7 +22,7 @@ const FeaturedWorks = () => {
                         </div>
                         <h2 className={css.featuredWorksTitle}>Featured Works</h2>
                     </div>
-                    <div className={css.listFeaturedWorks}>
+                    <div className={css.listFeaturedWorks} >
                         <li onClick={() => handleFilterChange('all')} className={css.itemFeaturedWorks}>All</li>
                         <li onClick={() => handleFilterChange('3dModeling')} className={css.itemFeaturedWorks}>3d Modeling</li>
                         <li onClick={() => handleFilterChange('Architecture')} className={css.itemFeaturedWorks}>Architecture</li>
@@ -27,7 +32,7 @@ const FeaturedWorks = () => {
                 </div>
             </div>
             <div className={css.containerApartaments}>
-                {filterImages.map(image => (<img src={image.img} alt={image.id} className={css.apartamentsImg} />))}
+                {filterImg.map(image => (<img src={image.img} alt={image.id} className={css.apartamentsImg} />))}
             </div>
         </>
     )

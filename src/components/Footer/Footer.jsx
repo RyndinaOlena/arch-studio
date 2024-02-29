@@ -1,5 +1,11 @@
 import React from 'react'
 import css from '../Footer/Footer.module.css'
+import logo from '../images/icon/logoFooter.svg'
+import { BiSend } from "react-icons/bi";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
@@ -33,11 +39,18 @@ const Footer = () => {
                 <div>
                     <h2>SUBSCRIBE</h2>
                     <p>We will send you updates on new products and discounts.</p>
-
+                    <div className={css.emailLine}><p className={css.sendText}>Your Email</p><BiSend className={css.sendIcon} /></div>
+                    <p>FOLLOW US</p>
+                    <div className=''><FaFacebookF className={css.socialIcon} /><FaTwitter className={css.socialIcon} /><IoLogoInstagram className={css.socialIcon} /><FaLinkedinIn className={css.socialIcon} />
+                    </div>
 
                 </div>
-            </div>
 
+            </div>
+            <div className={css.lineFooter} ><span className={css.lineFooter}></span></div>
+            <div className={css.blockFooter}><p>© 2021 Hellix. All rights reserved.</p><img className={css.logo} src={logo} alt='logo' />
+                <p>Designed by CreativeLayers</p>
+            </div>
         </div>
     )
 }

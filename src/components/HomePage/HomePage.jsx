@@ -21,18 +21,16 @@ const HomePage = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [currentTime, setCurrenTime] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
-
     // hero//
 
     const handleNext = () => {
 
         setCurrentSlide((prevSlide) => (prevSlide === 0 ? images.length - 1 : prevSlide - 1))
-    };
+    }
     const handleprev = () => {
         setCurrentSlide((prevSlide) => (prevSlide === 0 ? images.length - 1 : prevSlide - 1))
-    };
-    const images = [bgKitchOffice, bgKitchOffice2, bgKitchOffice3];
-
+    }
+    const images = [bgKitchOffice, bgKitchOffice2, bgKitchOffice3]
     // video//
     const openModal = () => {
         setIsOpen(true);
@@ -72,7 +70,7 @@ const HomePage = () => {
                 </div>
                 <div className={css.btnGroup}>
                     <button className={css.btnBack} onClick={handleNext}><img src={btnBack} alt='btnBack' /></button>
-                    <button className={css.btnNext} onClick={handleprev}> <img src={btnNext} alt='btnNext' /></button>
+                    <button className={css.btnNext} onClick={handleprev}><img src={btnNext} alt='btnNext' /></button>
                 </div>
             </div>
         </div>

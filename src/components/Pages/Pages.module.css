@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.pagesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.listMovies {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.listPages {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 50px;
+    margin-bottom: 200px;
+
+}
+
+.listPagesItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    width: 20%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.imgPages {
+    width: 80%;
+}
+
+.titleMovie {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btnPagesChecked {
+    margin: 0;
+    border: none;
+    padding: 2px 5px;
+    border: 0.5px solid white;
+    cursor: pointer;
+    background-color: rgba(215, 146, 107, 1);
+    box-shadow: 0 0 0 3px rgba(215, 146, 107, 1);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.btnPagesChecked:not([disabled]):hover {
+    box-shadow: 0 0 0 3px rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+
+.btnPagesChecked:disabled {
+    opacity: 0.1;
+}
+
+.blockBtnMovies {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btnPage {
+    margin: 0;
+    border: none;
+    margin-right: 20px;
+    padding: 13px 90px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(215, 146, 107, 1);
+    box-shadow: 0 0 0 7px rgba(215, 146, 107, 1);
+}
+
+.btnPage:hover {
+    box-shadow: 0 0 0 7px rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+
+.btnPage:last-child {
+    margin-right: 0;
+}
+
+.titleShopList {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 200;
+    margin: 0 auto;
+    text-align: center;
+    margin: 200px 0;
+}

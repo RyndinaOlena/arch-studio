@@ -1,0 +1,123 @@
+.overlay {
+    border-bottom: 0.3px solid black;
+}
+
+.titlePorfolioBg {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    font-size: 120px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.headerPortfolio {
+    margin-left: 50px;
+}
+
+.blockTitleHeaderPortfolio {
+    position: relative;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleHeaderPorfolio {
+    margin: 0;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 50px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.textHeroPortfolio {
+    margin-right: 50px;
+    color: white;
+}
+
+.textHeroPorfolioFirst {
+    color: #D7926B;
+    margin: 0;
+    padding-top: 350px;
+}
+
+/* img portfolio */
+.imgBlockComputer {
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.verticalText {
+    writing-mode: vertical-lr;
+    font-weight: 100;
+    margin: 3px;
+}
+
+.imComputer {
+    width: 530px;
+    height: 100%;
+}
+
+.lineComputerText {
+    width: 35px;
+    margin-right: 5px;
+    background-color: #000000;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.textComputerFirst {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.textComputerBlock {
+    margin-left: 30px;
+}
+
+.imgBlockDitital {
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.imDitital {
+    width: 430px;
+    height: 500px;
+}
+
+.textDititalBlock {
+    margin-right: 30px;
+    align-self: flex-end;
+
+}
+
+.imCLog {
+    width: 530px;
+    height: 500px;
+}
+
+.imInterior {
+    width: 400px;
+    height: 400px;
+}
+
+.imgBlockDInerior {
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    margin-right: 15px;
+    position: relative;
+    margin-bottom: 200px;
+}
