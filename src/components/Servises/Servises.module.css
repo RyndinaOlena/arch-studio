@@ -5,17 +5,6 @@
     background-position: center;
 }
 
-.containerApartaments {
-    margin-top: 15px;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    padding-bottom: 100px;
-    border-bottom: 0.3px solid black;
-}
-
 .listItemService {
     display: flex;
     margin: 0;
@@ -43,9 +32,19 @@
     border-bottom: #D7926B 1px solid;
 }
 
+.containerApartaments {
+    margin-top: 15px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    border-bottom: 0.3px solid black;
+}
+
 .serviceImg {
     height: 250px;
-    width: 295px;
+    width: 20%;
     margin-left: 1px;
     margin-bottom: 1px;
     transition: transform 0.3s ease;
@@ -54,6 +53,7 @@
 
 
 .serviceImg:nth-child(6n) {
+
     width: 700px;
     height: 600px;
     margin-top: -350px;
@@ -63,6 +63,7 @@
     width: 700px;
     height: 600px;
 }
+
 
 .serviceImg:hover {
     transform: scale(1.4);

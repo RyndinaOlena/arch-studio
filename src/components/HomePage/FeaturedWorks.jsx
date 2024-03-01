@@ -32,7 +32,7 @@ const FeaturedWorks = () => {
                 </div>
             </div>
             <div className={css.containerApartaments}>
-                {filterImg.map(image => (<img src={image.img} alt={image.id} className={css.apartamentsImg} />))}
+                {filterImg.map(image => (<img key={image.id} src={image.img} alt={image.title} className={css.apartamentsImg} />))}
             </div>
         </>
     )

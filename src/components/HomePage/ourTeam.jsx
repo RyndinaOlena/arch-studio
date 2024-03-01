@@ -11,9 +11,11 @@ const OurTeam = () => {
     const handleNextClick = () => {
         setStartIndex(prev => Math.min(prev + 4, teamData.length - 4))
     };
+
     const hendlePrevClick = () => {
         setStartIndex(prev => Math.max(prev - 4, 0))
     }
+
     const displayTeam = teamData.slice(startIndex, startIndex + 4)
     return (
         <div className={css.OurTeamBlock}>
@@ -21,10 +23,14 @@ const OurTeam = () => {
                 <div className={css.textTeam}> <span className={css.lineTeam}></span><h3 className={css.TeamText}>PROFESSIONALS</h3>
                     <h2 className={css.teamTitle}>Our Team</h2></div>
                 <ul className={css.teamArroy}>
-                    {displayTeam.map(member => (<li kay={member.id} className={css.listTeam} ><div className={css.iconSocialTeam}>         <img className={css.iconSocial} src={faceBook} alt='faceBook' />
-                        <img className={css.iconSocial} src={twitter} alt='twitter' style={{ color: 'white' }} />
-                        <img className={css.iconSocial} src={instagram} alt='instagram' />
-                        <img className={css.iconSocial} src={linkedin} alt='linkedin' /></div><h4 className={css.titleBlock}>{member.name} </h4><p className={css.textBlock}>{member.profession}</p></li>))}
+                    {displayTeam.map(member => (<li key={member.id} className={css.listTeam} >
+                        <div className={css.iconSocialTeam} >
+                            <img className={css.iconSocial} src={faceBook} alt='faceBook' />
+                            <img className={css.iconSocial} src={twitter} alt='twitter' />
+                            <img className={css.iconSocial} src={instagram} alt='instagram' />
+                            <img className={css.iconSocial} src={linkedin} alt='linkedin' />
+                        </div>
+                        <h4 className={css.titleBlock}>{member.name} </h4><p className={css.textBlock}>{member.profession}</p></li>))}
                 </ul>
                 <div>
                     <button onClick={hendlePrevClick} className={css.btnTeam} disabled={startIndex === 0}>&#10094;</button>

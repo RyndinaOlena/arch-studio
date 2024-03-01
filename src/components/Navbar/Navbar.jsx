@@ -20,7 +20,7 @@ const Navbar = () => {
             <img className={css.icon} src={iconMail} alt='mail' />
             <p className={css.textNavbar}>hello@hellix.com</p>
             <img className={css.icon} src={timeIcon} alt='time' />
-            <p className={css.textNavbar} s>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
+            <p className={css.textNavbar} >Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
             <div className={css.iconContainer}>
                 <img className={css.iconSocial} src={faceBook} alt='faceBook' />
                 <img className={css.iconSocial} src={twitter} alt='twitter' />
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className={css.containerLogo}>
             <img className={css.logo} src={logo} alt='logo' />
             <nav>
-                <Link className={css.navMenu} to='/'>HOME</Link>
+                <Link className={css.navMenu} to='/' exact='true' >HOME</Link>
                 <Link className={css.navMenu} to='/Pages'>PAGES</Link>
                 <Link className={css.navMenu} to='/Servises'>SERVICES</Link>
                 <Link className={css.navMenu} to='/portfolio'>PORTFOLIO</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
             </nav>
 
             <div className={css.navMenuIconContainer}>
-                <Link to='ShopList'><img className={css.navMenuIcon} src={shopBag} alt='shopBag' /></Link>
+                <Link to='/ShopList'><img className={css.navMenuIcon} src={shopBag} alt='shopBag' /></Link>
                 <img className={css.navMenuIcon} src={loopa} alt='loopa' />
                 <img className={css.navMenuIconNav} src={nav_icon} alt='nav_icon' />
             </div>

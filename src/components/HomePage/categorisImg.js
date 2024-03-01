@@ -30,30 +30,30 @@ const images = [
         img: `${Architecture1}`,
         category: 'Architecture',
         alt: 'Architecture',
-        id: '3'
+        id: '4'
     }, {
         img: `${Architecture2}`,
         category: 'Architecture',
         alt: 'Architecture2',
-        id: '4'
+        id: '5'
     },
     {
         img: `${Buildings}`,
         category: 'Buildings',
         alt: 'Architecture3',
-        id: '5'
+        id: '6'
     },
     {
         img: `${LivinRoom}`,
         category: 'LivinRoom',
         alt: 'bgKitchOffice',
-        id: '6'
+        id: '7'
     },
     {
         img: `${LivinRoom2}`,
         category: 'LivinRoom',
         alt: 'bgKitchOffice',
-        id: '7'
+        id: '8'
     }
 ]
 export default images

@@ -31,18 +31,18 @@ const images = [
         img: `${furniture}`,
         category: 'Architecture',
         alt: 'Architecture',
-        id: '3'
+        id: '4'
     }, {
         img: `${Architecture2}`,
         category: 'Architecture',
         alt: 'Architecture2',
-        id: '4'
+        id: '5'
     },
     {
         img: `${Architecture1}`,
         category: 'Buildings',
         alt: 'Architecture3',
-        id: '5'
+        id: '6'
     },
 ]
 export default images

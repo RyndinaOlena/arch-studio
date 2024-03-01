@@ -1,0 +1,126 @@
+.containerBlog {
+    background-image: url('../images/heroBg/furniture-1840463_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    border-bottom: 0.5px solid black;
+    padding-bottom: 100px;
+}
+
+.contextBlog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.wordsSearch {
+    font-weight: 300;
+}
+
+.searchText {
+    border-bottom: 0.2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.choiceText {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.blogContainerList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: 900px;
+    margin-left: 10px;
+}
+
+.imgBlog {
+    max-width: 930px;
+}
+
+.searchBlog {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.exempleDisign {
+    display: flex;
+}
+
+.imgSearch {
+    width: 40%;
+}
+
+.textSearchDisign {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.textDateDisign {
+    color: #D7926B;
+}
+
+.exempleDisign {
+    margin-bottom: 30px;
+}
+
+
+.imgSearchGallery {
+    width: 30%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btnSearch {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+}
+
+.btnSearch:hover {
+    background-color: black;
+    color: white;
+}
+
+.btnTeam {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(141, 141, 140, 0.5);
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.blockBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnRead {
+    color: #D7926B;
+    border: 1px solid #D7926B;
+    margin: 0;
+    padding: 0;
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}

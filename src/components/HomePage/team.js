@@ -32,43 +32,43 @@ const team = [{
     profession: 'DESIGNER DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 4,
+    id: 9,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 5,
+    id: 10,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 6,
+    id: 11,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 7,
+    id: 12,
     profession: 'DESIGNER INTERIOR',
     name: 'Jenny Wilson'
 }, {
-    id: 8,
+    id: 13,
     profession: 'DESIGNER DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 4,
+    id: 14,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 5,
+    id: 15,
     profession: 'DESIGNER DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 6,
+    id: 16,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 7,
+    id: 17,
     profession: 'INTERIOR DESIGNER',
     name: 'Jenny Wilson'
 }, {
-    id: 8,
+    id: 18,
     profession: 'DESIGNER DESIGNER',
     name: 'Jenny Wilson'
 }
