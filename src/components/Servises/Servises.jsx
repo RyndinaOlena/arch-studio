@@ -34,7 +34,7 @@ const Servises = () => {
                 <li onClick={() => handleFilterChange('LivinRoom')} className={cssService.itemService}>Living Room</li></ul>
 
             <div className={cssService.containerApartaments}>
-                {filterImg.map(image => (<img src={image.img} alt={image.id} className={cssService.serviceImg} />))}
+                {filterImg.map(image => (<img src={image.img} alt={image.id} key={image.id} className={cssService.serviceImg} />))}
             </div>
         </>
     )
