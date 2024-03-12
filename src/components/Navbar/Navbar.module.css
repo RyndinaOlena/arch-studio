@@ -5,6 +5,10 @@
     margin-right: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    @media (max-width: 750px) {
+        display: none;
+    }
 }
 
 .iconContainer {
@@ -13,8 +17,15 @@
 
 .icon {
     width: 16px;
-    height: 16px;
-    margin-right: 10px;
+    /* height: 16px;
+    margin-right: 10px; */
+
+    @media (max-width: 750px) {
+        width: 12px;
+        height: 12px;
+
+
+    }
 
 }
 
@@ -24,6 +35,9 @@
     margin-right: 30px;
 
     @media screen and (max-width: 968px) {
+        margin-right: 10px;
+        width: 12px;
+        height: 12px;
         margin-right: 10px;
     }
 }
@@ -53,12 +67,22 @@
     padding-right: 35px;
     padding-top: 17px;
     padding-bottom: 17px;
+    /* 
+    @media (max-width: 750px) {
+        background-color: transparent;
+        z-index: 6;
+    } */
 }
 
 .containerLogo {
     display: flex;
     align-items: center;
     border-top: 1px solid rgb(0, 0, 0, 0.2);
+
+    @media (max-width: 750px) {
+        background-color: black;
+
+    }
 }
 
 .navMenu {
@@ -72,39 +96,126 @@
 
     }
 
+    @media (max-width: 750px) {
+        color: white;
+
+    }
+
 }
 
 .navMenuIconContainer {
     margin-left: auto;
     padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 
-    @media screen and (max-width: 968px) {
-        padding-right: 0;
-        display: flex;
-        flex-direction: column;
+    @media (max-width: 750px) {
+        color: white;
     }
 }
 
 .navMenuIcon {
     margin-left: 55px;
-    height: 20px;
+    /* height: 20px; */
     width: 20px;
+    color: black;
 
     @media screen and (max-width: 968px) {
         margin-left: 15px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+        color: white;
 
     }
 }
 
 .navMenuIconNav {
     margin-left: 55px;
-    width: 30px;
-    height: 12px;
-    padding-bottom: 5px;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+
 
     @media screen and (max-width: 968px) {
         margin-left: 15px;
 
     }
+}
+
+.listLink {
+    @media (max-width: 750px) {
+        display: none;
+
+    }
+}
+
+/* modal */
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/heroBg/bgMod.png');
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.modal {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    max-height: 90%;
+    max-width: 90%;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.linkModal {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.btnCloseModal {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+
+.linkModalLists {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logoModal {
+    width: 36px;
+    height: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.navMenuIconModal {
+    position: absolute;
+    color: white;
+    right: 40px;
+    top: 15px;
+    width: 40px;
+    height: 30px;
 }

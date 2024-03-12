@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import iconPhone from '../images/icon/iconPhone.svg'
 import iconMail from '../images/icon/Icon_@.svg'
 import timeIcon from '../images/icon/timeIcon.svg'
@@ -7,12 +7,20 @@ import twitter from '../images/icon/twitterIcon.svg'
 import instagram from '../images/icon/instagramIcon.svg'
 import linkedin from '../images/icon/linkedinIcon.svg'
 import logo from '../images/icon/logoNavbar.svg'
-import loopa from '../images/icon/loopa.svg'
-import nav_icon from '../images/icon/nav_icon.svg'
-import shopBag from '../images/icon/shopping-bag.svg'
 import css from '../Navbar/Navbar.module.css'
+import { HiOutlineShoppingBag } from "react-icons/hi";
+import { HiMiniMagnifyingGlass } from "react-icons/hi2";
+import { SlMenu } from "react-icons/sl";
 import { Link } from 'react-router-dom'
+import ModalNavBar from './modal-nav-bar'
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    const handleOpen = () => {
+        setIsOpen(true)
+    };
+    const closeModal = () => {
+        setIsOpen(false)
+    }
     return (<>
         <div className={css.containerNavbar}>
             <img className={css.icon} src={iconPhone} alt='phone' />
@@ -30,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className={css.containerLogo}>
             <img className={css.logo} src={logo} alt='logo' />
-            <nav>
+            <nav className={css.listLink}>
                 <Link className={css.navMenu} to='/' exact='true' >HOME</Link>
                 <Link className={css.navMenu} to='/Pages'>PAGES</Link>
                 <Link className={css.navMenu} to='/Servises'>SERVICES</Link>
@@ -40,9 +48,10 @@ const Navbar = () => {
             </nav>
 
             <div className={css.navMenuIconContainer}>
-                <Link to='/ShopList'><img className={css.navMenuIcon} src={shopBag} alt='shopBag' /></Link>
-                <img className={css.navMenuIcon} src={loopa} alt='loopa' />
-                <img className={css.navMenuIconNav} src={nav_icon} alt='nav_icon' />
+                <Link to='/ShopList'><HiOutlineShoppingBag style={{ height: '16px' }} className={css.navMenuIcon} /></Link>
+                <HiMiniMagnifyingGlass className={css.navMenuIcon} />
+                <SlMenu className={css.navMenuIconNav} onClick={handleOpen} />
+                {isOpen && <ModalNavBar closeModal={closeModal} />}
             </div>
         </div>
     </>

@@ -50,6 +50,10 @@
     border-radius: 50%;
     margin-left: 120px;
 
+    @media (max-width:630px) {
+        margin-left: 60px;
+    }
+
 }
 
 
@@ -59,6 +63,10 @@
     color: white;
     font-family: "Work Sans", sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    @media (max-width: 630px) {
+        margin-left: 60px;
+    }
 
 }
 
@@ -89,12 +97,20 @@
     height: 70px;
     background-color: black;
     border: none;
+
+    @media (max-width: 568px) {
+        display: none;
+    }
 }
 
 .btnNext {
     width: 70px;
     height: 70px;
     border: 1px solid rgb(0, 0, 0, 0.5);
+
+    @media (max-width: 568px) {
+        display: none;
+    }
 }
 
 /* modal video */
@@ -136,14 +152,29 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 630px) {
+        flex-wrap: wrap;
+
+    }
+
 }
 
 .companyImg {
     height: 72px;
+
+    @media (max-width: 768px) {
+        height: 49px;
+
+    }
 }
 
 .companyImg:first-child {
     padding-left: 15px;
+
+    @media (max-width: 768px) {
+        padding-left: 0;
+
+    }
 }
 
 .companyImg:last-child {
@@ -156,6 +187,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.2);
+
 }
 
 .stepsText {
@@ -185,7 +217,11 @@
 .workProgresImg {
     padding: 40px;
     box-sizing: border-box;
+
     /* margin-bottom: 17px; */
+    @media (max-width: 750px) {
+        padding: 20px;
+    }
 }
 
 .liImgWorkProgress {
@@ -215,12 +251,16 @@
     margin: 0;
     padding: 0;
 
+    @media (max-width: 630px) {
+        flex-wrap: wrap;
+    }
+
 }
 
 .workProgresItem {
     margin: 0;
     padding: 0;
-    margin-left: 110px;
+    margin-left: 50px;
 
     display: flex;
     flex-direction: column;
@@ -240,9 +280,13 @@
 
 /* Featured Works */
 .featuredWorksWidthContainer {
-    width: 1270px;
+    /* width: 1270px; */
     margin: 0 auto;
     display: flex;
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+    }
 }
 
 .featuredWorksContainer {
@@ -273,6 +317,11 @@
     flex-direction: row;
     margin-left: auto;
     margin-bottom: 90px;
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
 }
 
 .itemFeaturedWorks {
@@ -281,6 +330,10 @@
     display: flex;
     align-items: flex-end;
     margin-right: 32px;
+
+    @media (max-width: 700px) {
+        margin-bottom: 10px;
+    }
 }
 
 .itemFeaturedWorks:last-child {
@@ -308,6 +361,7 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+
 }
 
 .apartamentsImg {
@@ -317,6 +371,15 @@
     margin-bottom: 15px;
     transition: transform 0.3s ease;
     cursor: pointer;
+
+    @media (max-width: 850px) {
+        width: 40%;
+        height: 200px;
+    }
+
+    @media (max-width: 500px) {
+        width: 60%;
+    }
 }
 
 .apartamentsImg:hover {
@@ -324,6 +387,19 @@
 }
 
 /* comments */
+.listComments {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+    }
+}
+
 .carouselContainer {
     background-color: rgb(215, 146, 107);
     padding-top: 90px;
@@ -382,11 +458,18 @@
 }
 
 .carouselBlock {
-    flex: 0 0 calc(33.33% - 20px);
     margin-right: 20px;
+    margin-left: 20px;
     border-radius: 8px;
     overflow: hidden;
     padding-top: 30px;
+}
+
+.btnComments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .carouselBlock:first-child {
@@ -394,12 +477,17 @@
 }
 
 .carouselImg {
-    width: 350px;
-    height: auto;
+    align-items: center;
+    width: 250px;
+    height: 200px;
 }
 
 .carouselCaption {
     padding: 10px;
+}
+
+.blockBtnComments {
+    text-align: center;
 }
 
 .prev {
@@ -483,6 +571,11 @@
     padding: 0;
     margin-bottom: 35px;
 
+    @media (max-width: 700px) {
+        flex-direction: column;
+
+    }
+
 }
 
 
@@ -507,6 +600,11 @@
     background-color: rgba(210, 134, 134, 0.393);
     margin-right: 30px;
     max-width: 300px;
+
+    @media (max-width: 700px) {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 .listTeam:hover {
@@ -517,6 +615,14 @@
 .listTeam:last-child {
     margin-right: 0;
 
+    @media (max-width: 700px) {
+        /* margin-left: 20px;
+        margin-bottom: 10px; */
+        margin: 0;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 .titleBlock {
@@ -534,7 +640,8 @@
     margin-left: 20px;
     color: black;
     padding-bottom: 35px;
-    padding-right: 125px;
+    padding-right: 20px;
+
 
 }
 
@@ -673,6 +780,10 @@
 
 .blockChoosePlan {
     display: flex;
+
+    @media (max-width: 700px) {
+        flex-wrap: wrap;
+    }
 }
 
 .chooseTeamText {
@@ -703,27 +814,48 @@
 }
 
 .pricingListChoosePlan {
-
     margin-bottom: 30px;
+
+    @media screen and(max-width: 900px) {
+        margin-bottom: 15px;
+    }
 }
 
 .pricingListChoosePlan:first-child {
     margin-bottom: 87px;
+
+    @media (max-width: 1000px) {
+        margin-bottom: 30px;
+    }
 }
 
 .blockChoosePlan {
     display: flex;
     margin-top: 50px;
+
+    @media (max-width: 700px) {
+        margin-bottom: 15px;
+    }
 }
 
 
 .blockListChoosePlan {
     margin-right: 30px;
     border: 0.3px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 700px) {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 15px;
+    }
 }
 
 .blockListChoosePlan:last-child {
     margin-right: 15px;
+
+
 }
 
 .blockListChoosePlan:first-child {
@@ -736,13 +868,19 @@
     padding-left: 65px;
     padding-right: 80px;
     list-style: none;
+
+    @media (max-width: 1000px) {
+        padding-left: 10px;
+
+    }
 }
 
 .btnChooseplan {
     margin: 0;
     padding: 0;
-    margin-left: 65px;
+    /* margin-left: 65px; */
     /* padding: ; */
+    margin: 0 5%;
     padding: 5px;
     cursor: pointer;
     background-color: black;
@@ -758,6 +896,11 @@
     border: 0.5px solid white;
     background-color: black;
     color: white;
+
+    @media (max-width: 900px) {
+        padding: 10px 53px;
+
+    }
 }
 
 .popularLibel {
@@ -869,10 +1012,22 @@
     position: relative;
     background-color: white;
     margin-right: 30px;
+
+    @media (max-width: 700px) {
+        margin-bottom: 15px;
+        margin-left: 15px;
+
+    }
 }
+
 
 .blockListNews:last-child {
     margin-right: 15px;
+
+    @media (max-width: 700px) {
+        margin-bottom: 15px;
+
+    }
 }
 
 .blockListNews:first-child {

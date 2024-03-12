@@ -27,6 +27,11 @@
     gap: 50px;
     margin-bottom: 200px;
 
+    @media (max-width: 700px) {
+        margin-bottom: 100px;
+    }
+
+
 }
 
 .listPagesItem {
@@ -39,6 +44,10 @@
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     align-items: center;
+
+    @media (max-width: 500px) {
+        width: 90%;
+    }
 }
 
 .imgPages {
@@ -50,6 +59,10 @@
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 10px;
+
+    @media (max-width: 600px) {
+        font-size: 15px;
+    }
 }
 
 .btnPagesChecked {
@@ -64,6 +77,10 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 10px;
+
+    @media (max-width: 500px) {
+        /* padding: 0; */
+    }
 }
 
 .btnPagesChecked:not([disabled]):hover {
@@ -91,6 +108,10 @@
     cursor: pointer;
     background-color: rgba(215, 146, 107, 1);
     box-shadow: 0 0 0 7px rgba(215, 146, 107, 1);
+
+    @media (max-width: 500px) {
+        padding: 5px 20px;
+    }
 }
 
 .btnPage:hover {

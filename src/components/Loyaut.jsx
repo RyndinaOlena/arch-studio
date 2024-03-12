@@ -8,7 +8,7 @@ const Loyaut = () => {
         <>
             <Navbar />
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

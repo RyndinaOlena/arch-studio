@@ -18,6 +18,7 @@ const Portfolio = () => {
                         <p className={css.textHeroPortfolio}>Home / Portfolio List</p></div>
                 </div>
             </div>
+
             <div className={css.imgBlockComputer}>
                 <img className={css.imComputer} src={computer} alt='computer'></img>
                 <div><p className={css.verticalText}>Architecture</p></div>

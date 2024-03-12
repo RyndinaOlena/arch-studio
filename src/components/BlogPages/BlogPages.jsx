@@ -38,9 +38,9 @@ const BlogPages = () => {
                 <ul className={cssBlog.blogContainerList}>{blogListBlock.map(member =>
                     <li key={member.id} className={cssBlog.itemBlog}>
                         <img alt={member.title} src={member.img} className={cssBlog.imgBlog}></img>
-                        <p>{member.date} {member.name}</p>
-                        <p>{member.title}</p>
-                        <p>{member.text}</p>
+                        <p className={cssBlog.textBlog}>{member.date} {member.name}</p>
+                        <p className={cssBlog.textBlog}>{member.title}</p>
+                        <p className={cssBlog.textBlog}>{member.text}</p>
                         <button onClick={openModal} className={cssBlog.btnRead}>read</button>
                     </li>)}
 

@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .listItemService {
@@ -15,11 +16,20 @@
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 90px;
+
+    @media (max-width: 600px) {
+        flex-wrap: wrap;
+    }
 }
 
 .itemService {
     margin-right: 40px;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        margin-bottom: 20px;
+    }
+
 
 }
 
@@ -40,6 +50,15 @@
     flex-wrap: wrap;
     padding-bottom: 100px;
     border-bottom: 0.3px solid black;
+
+    @media (max-width: 1175px) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
 
 .serviceImg {
@@ -49,6 +68,18 @@
     margin-bottom: 1px;
     transition: transform 0.3s ease;
     cursor: pointer;
+
+    @media (max-width:1175px) {
+        height: 300px;
+        width: 50%;
+        margin-bottom: 20px;
+
+    }
+
+    @media (max-width: 700px) {
+        height: 200px;
+        width: 70%;
+    }
 }
 
 
@@ -57,11 +88,34 @@
     width: 700px;
     height: 600px;
     margin-top: -350px;
+
+    @media (max-width:1175px) {
+        height: 300px;
+        width: 50%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 700px) {
+        height: 200px;
+        width: 70%;
+    }
 }
 
 .serviceImg:first-child {
     width: 700px;
     height: 600px;
+
+    @media (max-width:1175px) {
+        height: 250px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 700px) {
+        height: 200px;
+        width: 70%;
+    }
 }
 
 

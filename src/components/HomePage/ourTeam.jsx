@@ -32,7 +32,7 @@ const OurTeam = () => {
                         </div>
                         <h4 className={css.titleBlock}>{member.name} </h4><p className={css.textBlock}>{member.profession}</p></li>))}
                 </ul>
-                <div>
+                <div className={css.blockBtnComments}>
                     <button onClick={hendlePrevClick} className={css.btnTeam} disabled={startIndex === 0}>&#10094;</button>
                     <button onClick={handleNextClick} className={css.btnTeam} disabled={startIndex + 4 >= teamData.length}>&#10095;</button>
                 </div>
