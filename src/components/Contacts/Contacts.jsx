@@ -24,9 +24,12 @@ const Contacts = () => {
         setNameData({ name: '', website: '', email: '', })
     }
 
+
+
     const id = new Date()
     return (
         <div >
+
             <div className={cssContact.headerContact} >
                 <div className={css.headerPortfolio}>
                     <p className={css.textHeroPorfolioFirst}>EXPLORE THE FEATURES</p>

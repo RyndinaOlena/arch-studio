@@ -12,11 +12,20 @@
 .blockMapContainer {
     display: flex;
 
+    @media (max-width: 840px) {
+        flex-direction: column;
+    }
+
 }
 
 .mapBlock {
     margin-top: 90px;
     margin-left: 90px;
+
+    @media (max-width: 840px) {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
 
 }
 
@@ -25,12 +34,31 @@
     flex-direction: column;
     margin-top: 90px;
     margin-left: 200px;
+
+    @media (max-width:1150px) {
+        margin-left: 50px;
+        margin-top: 40px;
+    }
 }
 
 .mapContact {
     position: relative;
     height: 400px;
     width: 600px;
+
+    @media (max-width: 840px) {
+        height: 200px;
+        width: 400px;
+    }
+
+    @media (max-width: 500px) {
+        height: 200px;
+        width: 250px;
+    }
+
+    @media (max-width: 350px) {
+        display: none;
+    }
 }
 
 .lineForm {
@@ -68,11 +96,23 @@
 
     margin-top: -100px;
 
+    @media (max-width: 750px) {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    @media (max-width: 590px) {
+        display: none;
+    }
 }
 
 .textContact {
     margin: 0;
     margin-bottom: 5px;
+
+    @media (max-width: 1000px) {
+        font-size: 10px;
+    }
 }
 
 .textForm {
@@ -123,6 +163,10 @@
     margin: 0;
     margin-top: 10px;
     margin-bottom: 20px;
+
+    @media (max-width: 1000px) {
+        font-size: 15px;
+    }
 }
 
 .lineContact {
@@ -138,4 +182,8 @@
     margin: 0;
     margin-bottom: 10px;
     color: #D7926B;
+
+    @media (max-width: 1000px) {
+        font-size: 10px;
+    }
 }
