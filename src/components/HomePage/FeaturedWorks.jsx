@@ -17,7 +17,7 @@ const FeaturedWorks = () => {
         <>
             <div className={css.featuredWorksContainer}>
                 <div className={css.featuredWorksWidthContainer}>
-                    <div>
+                    <div className={css.featuredWorksTitleBlock}>
                         <div><p className={css.featuredWorksText}><span className={css.linefeaturedWorks}></span>PROJECTS</p>
                         </div>
                         <h2 className={css.featuredWorksTitle}>Featured Works</h2>

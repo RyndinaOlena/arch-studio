@@ -9,7 +9,7 @@ const ModalNavBar = (props) => {
     return (
         <div className={css.overlay}>
             <img className={css.logoModal} src={logo} alt='logo' />
-            <Link to='/ShopList'><HiOutlineShoppingBag className={css.navMenuIconModal} /></Link>
+            <Link to='/ShopList'><HiOutlineShoppingBag className={css.navMenuIconModal} onClick={closeModal} /></Link>
             <button onClick={closeModal} className={css.btnCloseModal}><AiOutlineClose /></button>
             <div className={css.modal}>
                 <nav className={css.linkModalLists}>

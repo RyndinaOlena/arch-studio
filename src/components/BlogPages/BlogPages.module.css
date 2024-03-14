@@ -74,14 +74,23 @@
     @media (max-width: 1160px) {
         width: 40%;
     }
+
+    @media (max-width: 560px) {
+        width: 80%;
+    }
 }
 
 .exempleDisign {
     display: flex;
+
 }
 
 .imgSearch {
     width: 40%;
+
+    @media (max-width: 330px) {
+        height: 100px;
+    }
 }
 
 .textSearchDisign {
@@ -91,6 +100,10 @@
 
 .textDateDisign {
     color: #D7926B;
+
+    @media (max-width: 330px) {
+        margin-top: 5px;
+    }
 }
 
 .exempleDisign {
@@ -114,6 +127,10 @@
     border-radius: 5px;
     font-family: "Work Sans", sans-serif;
     cursor: pointer;
+
+    @media (max-width: 330px) {
+        font-size: 10px;
+    }
 }
 
 .btnSearch:hover {
@@ -149,7 +166,21 @@
 }
 
 .textBlog {
-    max-width: 50%;
+    /* max-width: 50%; */
+    margin-right: 20px;
+
+    @media (max-width: 560px) {
+        max-height: 230px;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin-right: 0px;
+    }
+}
+
+.textBlogSearch {
+    @media (max-width: 330px) {
+        margin: 0;
+    }
 }
 
 /* 

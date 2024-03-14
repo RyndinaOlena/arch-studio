@@ -63,17 +63,17 @@ const BlogPages = () => {
                     <h4>RECENT POSTS</h4>
                     <div className={cssBlog.exempleDisign}>
                         <img alt='qwe' src={img} className={cssBlog.imgSearch}></img>
-                        <div className={cssBlog.textSearchDisign}><p>Biophilic design in office spaces</p>
+                        <div className={cssBlog.textSearchDisign}><p className={cssBlog.textBlogSearch}>Biophilic design in office spaces</p>
                             <p className={cssBlog.textDateDisign}>APRIL 06, 2021</p></div>
                     </div>
                     <div className={cssBlog.exempleDisign}>
                         <img alt='qwe' src={img} className={cssBlog.imgSearch}></img>
-                        <div className={cssBlog.textSearchDisign}><p>Biophilic design in office spaces</p>
+                        <div className={cssBlog.textSearchDisign}><p className={cssBlog.textBlogSearch}>Biophilic design in office spaces</p>
                             <p className={cssBlog.textDateDisign}>APRIL 06, 2021</p></div>
                     </div>
                     <div className={cssBlog.exempleDisign}>
                         <img alt='qwe' src={img} className={cssBlog.imgSearch}></img>
-                        <div className={cssBlog.textSearchDisign}><p>Biophilic design in office spaces</p>
+                        <div className={cssBlog.textSearchDisign}><p className={cssBlog.textBlogSearch}>Biophilic design in office spaces</p>
                             <p className={cssBlog.textDateDisign}>APRIL 06, 2021</p></div>
                     </div>
                     <h4>#hellix</h4>
