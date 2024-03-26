@@ -74,7 +74,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        {isOpen && (<div className={css.modalOverlayVideo} >
+        {/* {isOpen && (<div className={css.modalOverlayVideo} >
             <div className={css.modalVideo}>
                 <button className={css.closeBtnVideo} onClick={closeModal}>X</button>
                 <iframe title='vimeo-player' id="vimeo-player" src='https://player.vimeo.com/video/236203659' allow="autoplay; encrypted-media" frameborder="0"
@@ -82,7 +82,7 @@ const HomePage = () => {
                     height="360" onTimeUpdate={handleVideoUpdate}
                     onEnded={handleVideoEnd} ></iframe>
             </div>
-        </div >)}
+        </div >)} */}
         <Company />
         <WorkingProgress />
         <FeaturedWorks />

@@ -1,0 +1,44 @@
+.containerNavbar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    @media (max-width: 750px) {
+        display: none;
+    }
+
+    img {
+        width: 16px;
+
+        @media (max-width: 750px) {
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    div {
+        margin-left: auto;
+
+        img {
+            width: 14px;
+            height: 15px;
+            margin-right: 30px;
+
+            @media screen and (max-width: 968px) {
+                margin-right: 10px;
+                width: 12px;
+                height: 12px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

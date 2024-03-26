@@ -7,7 +7,7 @@ import twitter from '../images/icon/twitterIcon.svg'
 import instagram from '../images/icon/instagramIcon.svg'
 import linkedin from '../images/icon/linkedinIcon.svg'
 import logo from '../images/icon/logoNavbar.svg'
-import css from '../Navbar/Navbar.module.css'
+import css from './Navbar.module.css'
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { SlMenu } from "react-icons/sl";
