@@ -20,7 +20,7 @@ import NewsBlock from './news_block'
 const HomePage = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [currentTime, setCurrenTime] = useState(0);
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
     // hero//
 
     const handleNext = () => {
@@ -32,12 +32,12 @@ const HomePage = () => {
     }
     const images = [bgKitchOffice, bgKitchOffice2, bgKitchOffice3]
     // video//
-    const openModal = () => {
-        setIsOpen(true);
-    };
-    const closeModal = () => {
-        setIsOpen(false);
-    };
+    // const openModal = () => {
+    //     setIsOpen(true);
+    // };
+    // const closeModal = () => {
+    //     setIsOpen(false);
+    // };
     useEffect(() => {
         localStorage.setItem('video', currentTime);
     }, [currentTime]);
@@ -48,12 +48,12 @@ const HomePage = () => {
             setCurrenTime(parseFloat(savedTime))
         }
     }, []);
-    const handleVideoUpdate = (e) => {
-        setCurrenTime(e.target.currentTime)
-    };
-    const handleVideoEnd = () => {
-        setCurrenTime(0)
-    };
+    // const handleVideoUpdate = (e) => {
+    //     setCurrenTime(e.target.currentTime)
+    // };
+    // const handleVideoEnd = () => {
+    //     setCurrenTime(0)
+    // };
 
     return (<>
         <div className={css.overlay}>
@@ -62,7 +62,7 @@ const HomePage = () => {
                     <h1 className={css.heroTitle}>Create Apartment of the
                         <br />Dream Future</h1>
                     <div className={css.playIconContainer}>
-                        <div className={css.bgIconPlay} onClick={openModal}>
+                        <div className={css.bgIconPlay} >
                             <img className={css.playIcon} src={playIcon} alt='play' />
                         </div>
                         <p className={css.heroText}>SHOWCASE</p>
