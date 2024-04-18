@@ -20,7 +20,7 @@ import NewsBlock from './news_block'
 const HomePage = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [currentTime, setCurrenTime] = useState(0);
-    // const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     // hero//
 
     const handleNext = () => {
@@ -31,13 +31,13 @@ const HomePage = () => {
         setCurrentSlide((prevSlide) => (prevSlide === 0 ? images.length - 1 : prevSlide - 1))
     }
     const images = [bgKitchOffice, bgKitchOffice2, bgKitchOffice3]
-    // video//
-    // const openModal = () => {
-    //     setIsOpen(true);
-    // };
-    // const closeModal = () => {
-    //     setIsOpen(false);
-    // };
+    //video//
+    const openModal = () => {
+        setIsOpen(true);
+    };
+    const closeModal = () => {
+        setIsOpen(false);
+    };
 
 
 
@@ -51,12 +51,12 @@ const HomePage = () => {
             setCurrenTime(parseFloat(savedTime))
         }
     }, []);
-    // const handleVideoUpdate = (e) => {
-    //     setCurrenTime(e.target.currentTime)
-    // };
-    // const handleVideoEnd = () => {
-    //     setCurrenTime(0)
-    // };
+    const handleVideoUpdate = (e) => {
+        setCurrenTime(e.target.currentTime)
+    };
+    const handleVideoEnd = () => {
+        setCurrenTime(0)
+    };
 
     return (<>
         <div className={css.overlay}>
@@ -66,7 +66,7 @@ const HomePage = () => {
                         <br />Dream Future</h1>
                     <div className={css.playIconContainer}>
                         <div className={css.bgIconPlay} >
-                            <img className={css.playIcon} src={playIcon} alt='play' />
+                            <img className={css.playIcon} src={playIcon} alt='play' onClick={openModal} />
                         </div>
                         <p className={css.heroText}>SHOWCASE</p>
                     </div>
@@ -77,7 +77,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        {/* {isOpen && (<div className={css.modalOverlayVideo} >
+        {isOpen && (<div className={css.modalOverlayVideo} >
             <div className={css.modalVideo}>
                 <button className={css.closeBtnVideo} onClick={closeModal}>X</button>
                 <iframe title='vimeo-player' id="vimeo-player" src='https://player.vimeo.com/video/236203659' allow="autoplay; encrypted-media" frameborder="0"
@@ -85,7 +85,7 @@ const HomePage = () => {
                     height="360" onTimeUpdate={handleVideoUpdate}
                     onEnded={handleVideoEnd} ></iframe>
             </div>
-        </div >)} */}
+        </div >)}
         <Company />
         <WorkingProgress />
         <FeaturedWorks />
