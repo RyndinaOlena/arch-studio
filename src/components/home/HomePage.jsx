@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import playIcon from '../../components/images/icon/play-button.svg'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 import btnBack from '../images/icon/arrowBack.svg'
 import btnNext from '../images/icon/arrowNext.svg'
 import bgKitchOffice from '../images/heroBg/interior-design-828545_1920.jpg'

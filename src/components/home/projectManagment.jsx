@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 import ModalManagement from './modal/ModalManagement';
 const ProjectManagment = () => {
     const [isModalOpen, setModal] = useState(false)

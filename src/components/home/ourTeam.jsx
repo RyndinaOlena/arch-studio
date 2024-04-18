@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 
 import faceBook from '../images/icon/iconFaceBook.svg'
 import twitter from '../images/icon/twitterIcon.svg'

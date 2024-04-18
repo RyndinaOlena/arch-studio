@@ -1,5 +1,5 @@
 import React from 'react'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 import workProgres1 from '../images/workingProcessIm/Group1.svg'
 import workProgres2 from '../images/workingProcessIm/workingProcessImg2.svg.svg'
 import workProgres3 from '../images/workingProcessIm/workingProcessImg3.svg.svg'

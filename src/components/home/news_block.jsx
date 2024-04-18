@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 import bgKitchOffice from '../images/heroBg/interior-design-828545_1920.jpg'
 import ModalManagement from './modal/ModalManagement'
 const NewsBlock = () => {

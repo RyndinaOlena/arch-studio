@@ -1,5 +1,5 @@
 import React from 'react'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 import imgCompany1 from '../images/companyImg/image1.svg'
 import imgCompany2 from '../images/companyImg/image2.svg'
 import imgCompany3 from '../images/companyImg/image3.svg'

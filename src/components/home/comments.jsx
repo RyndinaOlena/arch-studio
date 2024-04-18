@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 // import css from '../HomePage/HomePage.module.css'
 import comments from './commentsImg'
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 
 const CommentsCurrent = () => {
     const [startIndex, setStartIndex] = useState(0);

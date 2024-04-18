@@ -1,5 +1,5 @@
 
-import css from '../HomePage/HomePage.module.css'
+import css from '../home/HomePage.module.css'
 const ChoosePlan = () => {
     return (
         <div className={css.container}>

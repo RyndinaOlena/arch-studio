@@ -4,7 +4,7 @@ import cssBlog from '../BlogPages/BlogPages.module.css'
 import blogList from '../BlogPages/blogList'
 import { IoSearchOutline } from "react-icons/io5";
 import img from '../images/heroBg/living-room-modern-tv-4813591_1280.jpg'
-import ModalManagement from 'components/HomePage/modal/ModalManagement';
+import ModalManagement from 'components/home/modal/ModalManagement';
 const BlogPages = () => {
     const [isModalOpen, setModal] = useState(false)
     const openModal = () => {
