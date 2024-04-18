@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import Portfolio from "./Portfolio/Portfolio";
-import HomePage from "./HomePage/homePage";
+// import HomePage from "./HomePage/homePage";
 import BlogPages from "./BlogPages/BlogPages";
 import ShopList from "./Pages/shopList";
 import Footer from "./Footer/Footer";
@@ -22,7 +22,7 @@ export const App = () => {
           <Route exact path='/Pages' element={<Pages />} />
           <Route exact path='/contacts' element={<Contacts />} />
           <Route exact path='/footer' element={<Footer />} />
-          <Route path="*" element={<HomePage />} />
+          {/* <Route path="*" element={<HomePage />} /> */}
         </Route>
       </Routes>
 
