@@ -38,6 +38,9 @@ const HomePage = () => {
     // const closeModal = () => {
     //     setIsOpen(false);
     // };
+
+
+
     useEffect(() => {
         localStorage.setItem('video', currentTime);
     }, [currentTime]);
