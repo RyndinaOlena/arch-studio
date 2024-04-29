@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import cssService from '../Servises/Servises.module.css'
 import css from '../Portfolio/Portfolio.module.css'
-import images from '../Servises/servisecImg'
+import images from './servisecImg'
 
-const Servises = () => {
+const Services = () => {
     const [filter, setFilter] = useState('all');
     const [filterImg, setfilterImg] = useState([])
 
@@ -40,4 +40,4 @@ const Servises = () => {
     )
 }
 
-export default Servises
+export default Services

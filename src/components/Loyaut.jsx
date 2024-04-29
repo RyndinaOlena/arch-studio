@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Footer from '../components/Footer/Footer'
 import Navbar from './Navbar/Navbar'
 
-const Loyaut = () => {
+const Layout = () => {
     return (
         <>
             <Navbar />
@@ -13,4 +13,4 @@ const Loyaut = () => {
     )
 }
 
-export default Loyaut
+export default Layout

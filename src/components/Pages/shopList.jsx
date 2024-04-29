@@ -17,7 +17,7 @@ const ShopList = () => {
 
     return (
         <div>
-            {checkedMovies.length > 0 ? <ul className={css.listPages}>{checkedMovies.map(checkMovie => <li className={css.listPagesItem} key={checkMovie.title}><h3 className={css.titleMovie}>{checkMovie.title ?? checkMovie.name}</h3>
+            {checkedMovies.length > 0 ? <ul className={css.listPages}>{checkedMovies.map(checkMovie => <li className={css.listPagesItem} key={checkMovie.id}><h3 className={css.titleMovie}>{checkMovie.title ?? checkMovie.name}</h3>
                 <img className={css.imgPages} alt={checkMovie.id} src={`https://image.tmdb.org/t/p/original${checkMovie.poster_path}`} />
                 <button onClick={() => handleDelete(checkMovie.id)} className={css.btnPagesChecked}>delete</button>
             </li>
